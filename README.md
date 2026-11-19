@@ -13,7 +13,7 @@ credential, and it can't sign or spend.
 ## Install
 
 ```bash
-hermes plugins install MocaNetwork/air-agent-hermes --no-enable
+hermes plugins install air3network/air-agent-hermes --no-enable
 hermes plugins enable air-agent-kya          # asks you to approve the Python dependencies
 hermes air --help
 ```
@@ -175,7 +175,7 @@ python3 tests/e2e_local.py             # all 11 mock profiles against the real W
 ## Releasing
 
 1. Bump `version` in `plugin.yaml`, add a `CHANGELOG.md` entry, merge to `main` with CI green.
-2. Direct installs (`hermes plugins install MocaNetwork/air-agent-hermes`) pick it up on
+2. Direct installs (`hermes plugins install air3network/air-agent-hermes`) pick it up on
    `hermes plugins update air-agent-kya`.
 3. Hermes catalog: open a PR to `NousResearch/hermes-agent` bumping `sha` (full 40-char commit) and
    `version` in `plugin-catalog/air-agent-kya.yaml`. First listing: see `docs/catalog-entry.yaml`

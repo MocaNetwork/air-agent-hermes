@@ -5,7 +5,7 @@
 **Body:**
 
 Adds `plugin-catalog/air-agent-kya.yaml`, pinned to `<sha>` of
-https://github.com/MocaNetwork/air-agent-hermes (submitted by the repository owner, rule 5).
+https://github.com/air3network/air-agent-hermes (submitted by the repository owner, rule 5).
 
 ### What it does
 Know-Your-Agent with AIR (Moca Network). The user delegates their AIR identity to Hermes once

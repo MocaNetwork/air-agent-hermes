@@ -7,9 +7,9 @@ description: >
   (Moca Network) to the agent once in the AIR Console; the agent then enters Know-Your-Agent
   stores with a one-time SD-JWT presentation from AIR that discloses only the claims the store
   asks for, and gets the catalog that credential unlocks. Identity only, no wallet signing.
-author: MocaNetwork
+author: AIR3 Network
 license: MIT
-homepage: https://github.com/MocaNetwork/air-agent-hermes
+homepage: https://github.com/air3network/air-agent-hermes
 tags: [identity, kya, know-your-agent, air, moca, credentials, sd-jwt]
 requires_hermes: ">=0.23.0"
 
